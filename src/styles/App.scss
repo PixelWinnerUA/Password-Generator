@@ -1,0 +1,75 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(21deg, #dd03e4, #5611ec);
+  background-size: cover;
+  color: white;
+
+  .Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #0a0e31;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+
+    .MuiSlider-markLabel {
+      color: white;
+    }
+
+
+    .MuiButton-root {
+      margin: 10px;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .result {
+      position: relative;
+      cursor: pointer;
+      min-width: 250px;
+      min-height: 40px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      padding: 10px;
+      margin: 10px 10px 20px 10px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+
+
+      .ClipBoard-Text {
+        position: absolute;
+        font-size: 14px;
+        bottom: -20px;
+        left: 10px;
+        color: gray;
+      }
+    }
+
+
+    .item {
+      min-width: 250px;
+      min-height: 40px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      padding: 10px;
+      margin: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+    }
+  }
+}
