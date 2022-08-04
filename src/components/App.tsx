@@ -30,7 +30,7 @@ function App() {
             label: "32"
         },
     ]; //Slider marks
-    const valueText = (value: number): string => `${value}`; //Slider marks test on hover
+    const valueText = (value: number): string => `${value}`; //Slider marks text on hover
 
     const UpperCase = useRef<HTMLInputElement>(null);
     const LowerCase = useRef<HTMLInputElement>(null);
