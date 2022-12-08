@@ -36,7 +36,6 @@ function App() {
     const LowerCase = useRef<HTMLInputElement>(null);
     const Numbers = useRef<HTMLInputElement>(null);
     const Symbols = useRef<HTMLInputElement>(null);
-
     const [values, setValues] = useState({
         Length: 8,
         UpperCase: false,
